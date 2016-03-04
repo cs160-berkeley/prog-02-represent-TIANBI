@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center" android:layout_gravity="center"
+    tools:context=".MainActivity" android:orientation="vertical" tools:deviceIds="wear_round"
+    android:background="@drawable/election">
+
+    <TextView android:id="@+id/time" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal" />
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Meow"-->
+        <!--android:id="@+id/feed_btn"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+
+        <!--/>-->
+    <!--android:onClick="LocationButtonListener"-->
+
+
+</LinearLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+
+
+    <!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" >-->
+
+        <!--<android.support.wearable.view.GridViewPager-->
+            <!--android:id="@+id/id_pager"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:keepScreenOn="true" />-->
+
+        <!--<android.support.wearable.view.DotsPageIndicator-->
+            <!--android:id="@+id/id_page_indicator"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal|bottom">-->
+        <!--</android.support.wearable.view.DotsPageIndicator>-->
+
+    <!--</FrameLayout>-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/represent"/>-->
+    <!--<Button-->
+        <!--android:layout_width="300dp"-->
+        <!--android:textColor="#000000"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:text="@string/LocationButtonText"-->
+        <!--android:id="@+id/Location_button"-->
+        <!--android:onClick="LocationButtonListener"-->
+        <!--android:enabled="false" />-->
+    <!--<TextView-->
+        <!--android:id="@+id/clock"-->
+        <!--app:layout_box="all"-->
+        <!--android:layout_gravity="bottom|start"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textColor="@android:color/white" />-->
+

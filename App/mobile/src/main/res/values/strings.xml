@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Proj2</string>
+    <string name="action_settings">Settings</string>
+    <string name="EnterZipCodeTextView">Enter Your Zip Code Please:</string>
+    <string name="SelectLocationTextView">Select Your Location:</string>
+    <string name="LocationButtonText">View Nearby Representatives!</string>\
+    <string name="NancyPelosi">FullName : Nancy Pelos\i\nParty\:\nEmail\:\nWebsite\:\nLastTweet\:\n</string>
+    <string name="DianneFeinstein">FullName : Dianne Feinstei\n\nParty\:\nEmail\:\nWebsite\:\nLastTweet\:\n</string>
+    <string name="BarbaraBoxer">FullName : Barbara Boxe\r\nParty\:\nEmail\:\nWebsite\:\nLastTweet\:\n</string>
+    <string name="NancyPelosiButtonText">More Info</string>
+    <string name="BarbaraBoxerButtonText">More Info</string>
+    <string name="DianneFeinsteinButtonText">More Info</string>
+    <string name="NancyPelosiDetailed">FullName\:\nParty\:\nEnd date of Term\:\nName of Committee\:\nDate Introduced and Name of Bill:</string>
+    <string-array name="geoSpinnerText">
+        <item>California 12th</item>
+        <item>California 13th</item>
+
+    </string-array>
+</resources>

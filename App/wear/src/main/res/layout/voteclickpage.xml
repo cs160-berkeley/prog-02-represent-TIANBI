@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="showVoteRecord">
+<TextView
+    android:layout_width="180dp"
+    android:layout_height="200dp"
+    android:text="Do you want to know the vote record for the 2012 election? Just click the page :)"
+    android:paddingTop="50dp"
+    android:paddingLeft="50dp"/>
+</LinearLayout>

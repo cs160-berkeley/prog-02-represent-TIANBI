@@ -1,0 +1,77 @@
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:background="#777777"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:onClick="rep_on_click"
+        >
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Meow"-->
+            <!--android:id="@+id/feed_btn"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:onClick="image_on_click"/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Veiw"
+        android:id="@+id/id_zipdisplay"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="10dp"
+        android:textColor="#000000"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+         <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/dummy"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"></ImageView>
+
+             <!--android:onClick="image_on_click"-->
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name: Dummy"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="10dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Party: Dummy's Party"
+                android:id="@+id/party"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="10dp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</android.support.wearable.view.BoxInsetLayout>
