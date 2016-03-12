@@ -31,42 +31,42 @@
             android:gravity="left"
             android:paddingLeft="10dp">
             <TextView
-                android:textSize="18dp"
+                android:textSize="12dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Fullname"
+                android:text="Fullname : "
                 android:id="@+id/id_rep_fullname"
                 android:textColor="#000000"
                 />
             <TextView
-                android:textSize="18dp"
+                android:textSize="12dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Party"
+                android:text="Party : "
                 android:id="@+id/id_rep_party"
                 android:textColor="#000000"
                 />
             <TextView
-                android:textSize="18dp"
+                android:textSize="12dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Email"
+                android:text="Email : "
                 android:id="@+id/id_rep_email"
                 android:textColor="#000000"
                 />
             <TextView
-                android:textSize="18dp"
+                android:textSize="12dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Website"
+                android:text="Website : "
                 android:id="@+id/id_rep_website"
                 android:textColor="#000000"
                 />
             <TextView
-                android:textSize="18dp"
+                android:textSize="12dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="lastTweet"
+                android:text="lastTweet:"
                 android:id="@+id/id_rep_lastTweet"
                 android:textColor="#000000"
                 />

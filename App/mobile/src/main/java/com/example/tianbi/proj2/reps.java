@@ -4,15 +4,16 @@ package com.example.tianbi.proj2;
  * Created by TIANBI on 3/1/16.
  */
 public class reps {
-    private int id;
+    private String id;
     private String rep_fullname;
     private String rep_party;
     private String rep_email;
     private String rep_website;
     private String rep_lastTweet;
     private int rep_photo;
+    private String rep_end;
 
-    public reps(int id, String rep_fullname, String rep_party, String rep_email, String rep_website, String rep_lastTweet, int rep_photo) {
+    public reps(String id, String rep_fullname, String rep_party, String rep_email, String rep_website, String rep_lastTweet,String end) {
         this.id = id;
         this.rep_fullname = rep_fullname;
         this.rep_party = rep_party;
@@ -20,13 +21,14 @@ public class reps {
         this.rep_website = rep_website;
         this.rep_lastTweet = rep_lastTweet;
         this.rep_photo = rep_photo;
+        this.rep_end = end;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -70,11 +72,19 @@ public class reps {
         this.rep_lastTweet = rep_lastTweet;
     }
 
-    public int getRep_photo() {
-        return rep_photo;
+    public String getRep_end() {
+        return rep_end;
     }
 
-    public void setRep_photo(int rep_photo) {
-        this.rep_photo = rep_photo;
+    public void setRep_end(String rep_end) {
+        this.rep_end = rep_end;
     }
+
+//    public int getRep_photo() {
+//        return rep_photo;
+//    }
+//
+//    public void setRep_photo(int rep_photo) {
+//        this.rep_photo = rep_photo;
+//    }
 }

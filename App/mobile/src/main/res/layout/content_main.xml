@@ -40,6 +40,25 @@
             android:id="@+id/EnterZipEditText"
             android:textColor="#000000"
             />
+        <!--<TextView-->
+            <!--android:text="@string/SelectLocationTextView"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="#000000"/>-->
+        <!--<Spinner-->
+            <!--android:layout_width="180dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/EnterLocationSpinner"-->
+            <!--android:textColor="#000000"-->
+            <!--/>-->
+        <Button
+            android:layout_width="200dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:text="View Representives From Zipcode"
+            android:id="@+id/Location_button"
+            android:layout_weight="0.03"
+            android:onClick="LocationButtonListener"/>
         <TextView
             android:text="OR"
             android:layout_width="wrap_content"
@@ -47,25 +66,14 @@
             android:layout_marginBottom="20dp"
             android:layout_marginTop="20dp"
             android:textColor="#000000"/>
-        <TextView
-            android:text="@string/SelectLocationTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#000000"/>
-        <Spinner
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/EnterLocationSpinner"
-            android:textColor="#000000"
-            />
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:textColor="#000000"
             android:layout_height="wrap_content"
-            android:text="@string/LocationButtonText"
-            android:id="@+id/Location_button"
+            android:text="View Representatives From Current Location"
+            android:id="@+id/Current_Location_button"
             android:layout_weight="0.03"
-            android:onClick="LocationButtonListener"/>
+            android:onClick="CurrentLocationButtonListener"/>
 
     </LinearLayout>
 

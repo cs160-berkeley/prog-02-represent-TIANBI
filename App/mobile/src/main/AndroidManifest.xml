@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tianbi.proj2" >
-
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <dependency>
+        <groupId>com.squareup.picasso</groupId>
+        <artifactId>picasso</artifactId>
+        <version>2.5.2</version>
+    </dependency>
 
     <application
         android:allowBackup="true"
@@ -37,14 +44,25 @@
             </intent-filter>
         </service>
         <activity android:name=".detailedviewwatch">
-
         </activity>
+
         <activity
             android:name=".detailed"
             android:label="todetailedview"
             android:theme="@style/AppTheme">
         </activity>
 
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="70008c30c0f374f1dc95aff794b2f2cbfcd7b14c" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAMILLS0hDHgD7blEnLw6gARBNbKqUNdqg"/>
+        <dependency>
+            <groupId>com.squareup.picasso</groupId>
+            <artifactId>picasso</artifactId>
+            <version>2.5.2</version>
+        </dependency>
     </application>
 
 </manifest>
